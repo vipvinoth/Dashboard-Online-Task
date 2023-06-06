@@ -2,15 +2,16 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'polarArea',
     data: {
-        labels: ['Google', 'Facebook', 'Youtube', 'Amazon'],
+        labels: ['Google', 'Facebook', 'Youtube', 'Amazon','MicroSoft'],
         datasets: [{
             label: 'Traffic Source',
-            data: [2400,3200,1200,2700],
+            data: [2050,3200,1400,2540,2850],
             backgroundColor: [
                 'rgba(255, 99, 132, 1)',
                 'rgba(54, 162, 235, 1)',
                 'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)'
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)'
                
             ],
     
